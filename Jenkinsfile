@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Test') {
             steps {
-                dir('C:/Users/Admir/.jenkins/workspace/Inlamningsuppgift(KK)_main/Tests'){ 
+                dir('C:/Users/Admir/.jenkins/workspace/Inlamningsuppgift_KK_main/Tests'){ 
                     bat 'python -m unittest'
                 }
             }
